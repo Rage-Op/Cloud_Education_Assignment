@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  padding: 0 0;
+}
+/* HEADER */
+header {
+  background-color: white;
+  height: 80px;
+  padding: 0 7%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+/* NAV-LEFT */
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+#logo {
+  background-image: url("./contents/logo.svg");
+  height: 36px;
+  width: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#title {
+  background-image: url("./contents/title.svg");
+  height: 26px;
+  width: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #60677f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.nav-links .active {
+  color: #0f32b1;
+  font-weight: 600;
+}
+
+.nav-services,
+.nav-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-signin {
+  background-color: #0f32b1;
+  height: 48px;
+  width: 100px;
+  border-radius: 100px;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.nav-download {
+  height: 48px;
+  padding: 10px 24px;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #ff785a;
+}
+
+.nav-download-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-download-content p {
+  color: #ff785a;
+}
+
+.nav-download-content #plus-icon {
+  background-image: url("./contents/Plus.svg");
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-section {
+  background-image: url("./contents/hero-img.png");
+  height: 420px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.hero-overlay {
+  height: 100%;
+  width: 100%;
+  padding: 0 7%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+
+.hero-overlay h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.hero-overlay p {
+  color: white;
+  padding-top: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.hero-search-wrapper {
+  position: absolute;
+  margin-bottom: -25%;
+  width: 100%;
+  padding: 0 7%;
+}
+
+.hero-search {
+  background-color: white;
+  height: 184px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 12px 0px rgba(176, 184, 211, 0.3),
+    0px 2px 4px 0px rgba(172, 188, 245, 0.25);
+}
+
+.hero-search-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 21px;
+  width: 100%;
+}
+
+.hero-search-top #search1 {
+  background-color: white;
+  border-top: 2px solid #d1d3dc;
+  border-left: 2px solid #d1d3dc;
+  border-right: 2px solid #d1d3dc;
+  border-bottom: 2px solid #d1d3dc;
+  border-radius: 100px;
+  height: 56px;
+  width: auto;
+  flex-grow: 1;
+  outline: #d1d3dc;
+  padding-left: 30px;
+}
+
+#search1 {
+  background-image: url("./contents/search.svg");
+  background-position: 20px 15px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  font-size: 16px;
+}
+
+#search1::placeholder {
+  padding-left: 30px;
+}
+
+#input-search-button {
+  border: none;
+  background-color: #0f32b1;
+  height: 56px;
+  width: 131px;
+  padding: 10px 24px;
+  border-radius: 100px;
+  color: white;
+  font-weight: 500;
+}
+
+.hero-search-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.hero-search-bottom > select {
+  height: 48px;
+  width: 191px;
+  border: 1px solid #d1d3dc;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 14px;
+}
+
+/* sort section */
+
+.search-filter {
+  margin-top: 150px;
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-filter select {
+  height: 40px;
+  width: 177px;
+  padding: 5px;
+  border: 2px solid #d1d3dc;
+  border-radius: 8px;
+}
+
+#filter-left1 {
+  color: #60677f;
+}
+
+#filter-left2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c2f3a;
+}
+
+.filter-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.section-divider {
+  margin: 32px 7%;
+}
+
+.search-result {
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.box {
+  height: 284px;
+  width: 384px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 12px 0px rgba(176, 184, 211, 0.3),
+    0px 2px 4px 0px rgba(172, 188, 245, 0.25);
+}
+.box-hr {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 16px 0px 32px 0px;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.box-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 16px;
+}
+
+.box-bottom-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.college-logo {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  border: 2px solid #d1d3dc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.college-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.college-name {
+  color: #2c2f3a;
+  font-weight: 600;
+}
+
+.college-location {
+  color: #60677f;
+  font-weight: 400;
+}
+
+.box-top-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+  transition: 100ms;
+}
+
+.checkmark {
+  top: 0;
+  left: 0;
+  height: 2em;
+  width: 2em;
+  transition: 100ms;
+  animation: dislike_effect 400ms ease;
+}
+
+.container input:checked ~ .checkmark path {
+  fill: #ff5353;
+  stroke-width: 0;
+}
+
+.container input:checked ~ .checkmark {
+  animation: like_effect 400ms ease;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+@keyframes like_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dislike_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.box-top-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.small-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #60677f;
+}
+
+.big-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c2f3a;
+}
+
+.logo1 {
+  background-image: url("./contents/university-logos/Melbourne.svg");
+}
+.logo2 {
+  background-image: url("./contents/university-logos/central-queensland.svg");
+}
+.logo3 {
+  background-image: url("./contents/university-logos/swinburn.svg");
+}
+.logo4 {
+  background-image: url("./contents/university-logos/central-queensland.svg");
+}
+.logo5 {
+  background-image: url("./contents/university-logos/griffith.svg");
+}
+.logo6 {
+  background-image: url("./contents/university-logos/griffith.svg");
+}
+.logo7 {
+  background-image: url("./contents/university-logos/Melbourne.svg");
+}
+.logo8 {
+  background-image: url("./contents/university-logos/central-queensland.svg");
+}
+.logo9 {
+  background-image: url("./contents/university-logos/swinburn.svg");
+}
+.logo10 {
+  background-image: url("./contents/university-logos/southern-queensland.svg");
+}
+.logo11 {
+  background-image: url("./contents/university-logos/sunshine-cost.svg");
+}
+.logo12 {
+  background-image: url("./contents/university-logos/griffith.svg");
+}

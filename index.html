@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Education</title>
+    <link rel="icon" href="./contents/logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <div class="nav-logo">
+            <div id="logo"></div>
+            <div id="title"></div>
+          </div>
+          <div class="nav-links">
+            <a href="#" class="active">Discover</a>
+            <a href="#">Community</a>
+            <a href="#">
+              <div class="nav-services">
+                <p>Services</p>
+                <img src="./contents/dropdown.svg" alt="dropdoown" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="nav-more">
+                <p>More</p>
+                <img src="./contents/dropdown.svg" alt="dropdown" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="nav-signin">
+            <p>Sign in</p>
+          </div>
+          <div class="nav-download">
+            <div class="nav-download-content">
+              <div id="plus-icon"></div>
+              <p>Download App</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-section">
+        <div class="hero-overlay">
+          <div class="hero-text">
+            <h2 id="hero-heading">
+              Discover College & Universities For Your Abroad Education
+            </h2>
+            <p>
+              Everything you need for your abroad education is here. Discover
+              global opportunities with us.
+            </p>
+          </div>
+          <div class="hero-search-wrapper">
+            <div class="hero-search">
+              <form action="">
+                <div class="hero-search-top">
+                  <input
+                    id="search1"
+                    type="text"
+                    placeholder="Search universities, courses"
+                  />
+                  <input
+                    id="input-search-button"
+                    type="submit"
+                    value="Search"
+                  />
+                </div>
+                <!-- <br /> -->
+                <div class="hero-search-bottom">
+                  <select name="location" id="">
+                    <option value="">Countries</option>
+                  </select>
+                  <select name="course" id="">
+                    <option value="">Courses</option>
+                  </select>
+                  <select name="degree" id="">
+                    <option value="">Degree</option>
+                  </select>
+                  <select name="duration" id="">
+                    <option value="">Duration</option>
+                  </select>
+                  <select name="fees" id="">
+                    <option value="">Fees</option>
+                  </select>
+                  <select name="intake" id="">
+                    <option value="">Intake</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="search-filter">
+        <div class="filter-left">
+          <p id="filter-left1">Showing results for</p>
+          <p id="filter-left2">All colleges and universities</p>
+        </div>
+        <div class="filter-right">
+          <p>Sort By:</p>
+          <select name="Sorting" id="">
+            <option value="">Fee (low - high)</option>
+          </select>
+        </div>
+      </section>
+      <hr class="section-divider" />
+      <section class="search-result">
+        <div class="box1 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo1"></div>
+              <div class="college-title">
+                <p class="college-name">Melbourne Institute of Technology</p>
+                <p class="college-location">Sydney, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master of Technology (Enterprise Systems and Business Analytics)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 20,000</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box2 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo2"></div>
+              <div class="college-title">
+                <p class="college-name">Central Queensland University</p>
+                <p class="college-location">New South Wales, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master of Business Administration (Coursework)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 39,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box3 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo3"></div>
+              <div class="college-title">
+                <p class="college-name">Swinburne University of Technology</p>
+                <p class="college-location">Vancouver, Canada</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Graduate Diploma in Early Childhood Education (Extension)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 38,614</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">1 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box4 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo4"></div>
+              <div class="college-title">
+                <p class="college-name">Central Queensland University</p>
+                <p class="college-location">New South Wales, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master in Information and Communication Technology
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 39,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box5 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo5"></div>
+              <div class="college-title">
+                <p class="college-name">Griffith University</p>
+                <p class="college-location">Nova Scotia, Canada</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">Bachelor of Arts in Anthropology</p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 39,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box6 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo6"></div>
+              <div class="college-title">
+                <p class="college-name">Griffith University</p>
+                <p class="college-location">Queensland, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master of Audio Engineering and Sound Production (Coursework)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 39,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box7 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo7"></div>
+              <div class="college-title">
+                <p class="college-name">Melbourne Institute of Technology</p>
+                <p class="college-location">Sydney, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master of Technology (Enterprise Systems and Business Analytics)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 20,000</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box8 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo8"></div>
+              <div class="college-title">
+                <p class="college-name">Central Queensland University</p>
+                <p class="college-location">Washington, USA</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master of Business Administration (Coursework)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 39,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box9 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo9"></div>
+              <div class="college-title">
+                <p class="college-name">Swinburne University of Technology</p>
+                <p class="college-location">Victoria, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Graduate Diploma in Early Childhood Education (Extension)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 38,614</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">1 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box10 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo10"></div>
+              <div class="college-title">
+                <p class="college-name">University of Southern Queensland</p>
+                <p class="college-location">Toronto, Canada</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master in Information and Communication Technology
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 27,800</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box11 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo11"></div>
+              <div class="college-title">
+                <p class="college-name">University of the Sunshine Cost</p>
+                <p class="college-location">Queensland, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">Bachelor of Arts in Anthropology</p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 50,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">3 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box12 box">
+          <div class="box-top">
+            <div class="box-top-left">
+              <div class="college-logo logo12"></div>
+              <div class="college-title">
+                <p class="college-name">Griffith University</p>
+                <p class="college-location">Queensland, Australia</p>
+              </div>
+            </div>
+            <div class="box-top-right">
+              <label class="container">
+                <input type="checkbox" />
+                <div class="checkmark">
+                  <svg viewBox="0 0 256 256">
+                    <rect fill="none" height="256" width="256"></rect>
+                    <path
+                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                      stroke-width="20px"
+                      stroke="#60677F"
+                      fill="none"
+                    ></path>
+                  </svg>
+                </div>
+              </label>
+            </div>
+          </div>
+          <hr class="box-hr" />
+          <div class="box-bottom">
+            <div class="box-bottom-top">
+              <p class="small-text">Course Name</p>
+              <p class="big-text">
+                Master of Audio Engineering and Sound Production (Coursework)
+              </p>
+            </div>
+            <div class="box-bottom-bottom">
+              <div class="box-bottom-bottom-left">
+                <p class="small-text">Fee per year</p>
+                <p class="big-text">AUD 39,500</p>
+              </div>
+              <div class="box-bottom-bottom-right">
+                <p class="small-text">Duration</p>
+                <p class="big-text">2 year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
