@@ -539,6 +539,143 @@ nav {
   color: #0f32b1;
 }
 
-.footer {
+footer {
   background-color: #061447;
+  padding: 64px 7% 0 7%;
+  color: white;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+}
+
+.contact > img {
+  height: 24px;
+  width: 24px;
+}
+
+.foot-title {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 320px;
+}
+
+.foot-links {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.foot-apps {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.foot-copyright {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+.foot-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.foot-title > p {
+  text-align: left;
+  font-weight: 400;
+  color: #d1d3dc;
+}
+
+.foot-logo > #logo2 {
+  background-image: url("./contents/foot-logo.svg");
+  height: 31px;
+  width: 56px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.foot-logo > #title2 {
+  background-image: url("./contents/foot-title.svg");
+  height: 26px;
+  width: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.foot-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  font-weight: 500;
+}
+
+.foot-links-left,
+.foot-links-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.foot-links-left > a,
+.foot-links-right > a {
+  text-decoration: none;
+  color: #d1d3dc;
+  font-weight: 400;
+}
+
+.foot-apps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  font-weight: 500;
+}
+
+.store-branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  height: 40px;
+}
+
+.foot-copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 48px;
+  padding-top: 48px;
+}
+
+.foot-copyright > hr {
+  width: 100%;
+}
+
+.copyright-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  padding-bottom: 48px;
+  font-weight: 400;
+  color: #d1d3dc;
+}
+
+.copyright-content .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
 }
