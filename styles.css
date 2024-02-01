@@ -317,7 +317,7 @@ nav {
 
 .box-top {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 0 16px;
@@ -495,4 +495,50 @@ nav {
 }
 .logo12 {
   background-image: url("./contents/university-logos/griffith.svg");
+}
+
+.page-tabs {
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 80px 0;
+}
+
+.page-tabs-left > p {
+  font-weight: 400;
+  color: #2c2f3a;
+}
+
+.page-tabs-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.page-tabs-right > p {
+  font-weight: 400;
+  color: #2c2f3a;
+}
+
+.page-tabs-right > .active {
+  height: 32px;
+  width: 32px;
+  background-color: #0f32b1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.page-tabs-right > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0f32b1;
+}
+
+.footer {
+  background-color: #061447;
 }
