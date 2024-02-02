@@ -1,0 +1,92 @@
+@media (max-width: 1445px) {
+  .hero-search-bottom > select {
+    width: 160px;
+  }
+  footer {
+    padding: 40px 7% 0 7%;
+  }
+  header {
+    height: 70px;
+  }
+  .hero-section {
+    height: 300px;
+  }
+  .hero-search {
+    height: 154px;
+    padding: 12px;
+  }
+  .hero-overlay p {
+    padding-top: 9px;
+  }
+  .search-filter {
+    margin-top: 100px;
+  }
+  .section-divider {
+    margin: 22px 7%;
+  }
+  .box {
+    padding: 9px 0 14px 0;
+    height: 275px;
+    width: 364px;
+  }
+  .page-tabs {
+    margin: 36px 0 56px 0;
+  }
+  .foot-bottom {
+    padding: 29px 0 29px 0;
+  }
+  .foot-top {
+    padding: 0 0 32px 0;
+  }
+}
+
+@media (max-width: 1240px) {
+  * {
+    font-size: 14px;
+  }
+  .hero-search-bottom > select {
+    width: 140px;
+  }
+  #logo {
+    height: 30px;
+    background-size: contain;
+  }
+  #title {
+    height: 24px;
+    background-size: contain;
+  }
+  .nav-links a {
+    font-size: 14px;
+  }
+  .nav-signin {
+    height: 42px;
+    width: 95px;
+    font-size: 14px;
+  }
+  .nav-download {
+    height: 42px;
+    padding: 10px 20px;
+  }
+  .hero-search-top #search1 {
+    height: 48px;
+  }
+  #input-search-button {
+    height: 42px;
+  }
+  .hero-search-bottom {
+    margin-top: 15px;
+  }
+  .hero-search {
+    height: 138px;
+  }
+  .foot-bottom {
+    padding: 14px 0 14px 0;
+  }
+  .foot-top {
+    padding: 0 0 14px 0;
+  }
+  footer {
+    padding: 18px 7% 0 7%;
+    font-size: 12px;
+  }
+}
