@@ -19,16 +19,28 @@
           <div class="nav-links">
             <a href="#" class="active">Discover</a>
             <a href="#">Community</a>
-            <a href="#">
+            <a href="#" class="services-dropdown">
               <div class="nav-services">
                 <p>Services</p>
-                <img src="./contents/dropdown.svg" alt="dropdoown" />
+                <img src="./contents/dropdown.svg" alt="dropdown" />
+                <!-- <div class="services-dropdown-content">
+                  <a href="#">Option 1</a>
+                  <a href="#">Option 2</a>
+                  <a href="#">Option 3</a>
+                  <a href="#">Option 4</a>
+                </div> -->
               </div>
             </a>
-            <a href="#">
+            <a href="#" class="more-dropdown">
               <div class="nav-more">
                 <p>More</p>
                 <img src="./contents/dropdown.svg" alt="dropdown" />
+                <!-- <div class="more-dropdown-content">
+                  <a href="#">Option 1</a>
+                  <a href="#">Option 2</a>
+                  <a href="#">Option 3</a>
+                  <a href="#">Option 4</a>
+                </div> -->
               </div>
             </a>
           </div>
@@ -42,6 +54,9 @@
               <div id="plus-icon"></div>
               <p>Download App</p>
             </div>
+          </div>
+          <div class="mobile-menu">
+            <img src="./contents/mobile-menu.svg" alt="menu" />
           </div>
         </div>
       </nav>
@@ -63,6 +78,7 @@
               <form action="">
                 <div class="hero-search-top">
                   <input
+                    required
                     id="search1"
                     type="text"
                     placeholder="Search universities, courses"
@@ -76,23 +92,64 @@
                 <!-- <br /> -->
                 <div class="hero-search-bottom">
                   <select name="location" id="">
-                    <option value="">Countries</option>
+                    <option selected disabled value="">Countries</option>
+                    <option value="">All</option>
+                    <option value="">USA</option>
+                    <option value="">Canada</option>
+                    <option value="">UK</option>
+                    <option value="">New Zealand</option>
+                    <option value="">Dubai</option>
+                    <option value="">Denmark</option>
+                    <option value="">India</option>
+                    <option value="">Australia</option>
+                    <option value="">Antartica</option>
+                    <option value="">Jupiter</option>
+                    <option value="">Pluto</option>
+                    <option value="">NASA</option>
                   </select>
                   <select name="course" id="">
-                    <option value="">Courses</option>
+                    <option selected disabled value="">Courses</option>
+                    <option value="">All</option>
+                    <option value="">Computer Science</option>
+                    <option value="">Computer Engineering</option>
+                    <option value="">Medical Science</option>
+                    <option value="">Business</option>
+                    <option value="">Game Development</option>
+                    <option value="">Animation</option>
+                    <option value="">PCB Designing</option>
                   </select>
                   <select name="degree" id="">
-                    <option value="">Degree</option>
+                    <option selected disabled value="">Diploma</option>
+                    <option value="">All</option>
+                    <option value="">Bachelors</option>
+                    <option value="">Masters</option>
                   </select>
                   <select name="duration" id="">
-                    <option value="">Duration</option>
+                    <option selected disabled value="">Duration</option>
+                    <option value="">All</option>
+                    <option value="">1 years</option>
+                    <option value="">2 years</option>
+                    <option value="">3 years</option>
+                    <option value="">4 years</option>
                   </select>
                   <select name="fees" id="">
-                    <option value="">Fees</option>
+                    <option selected disabled value="">Fees</option>
+                    <option value="">All</option>
+                    <option value="">0$-10000$</option>
+                    <option value="">10000$-20000$</option>
+                    <option value="">20000$-30000$</option>
+                    <option value="">30000$-40000$</option>
                   </select>
                   <select name="intake" id="">
-                    <option value="">Intake</option>
+                    <option selected disabled value="">Intake</option>
+                    <option value="">All</option>
+                    <option value="">Spring</option>
+                    <option value="">Fall</option>
                   </select>
+                  <div class="mobile-filter">
+                    <img src="./contents/filter-logo.svg" alt="filter" />
+                    <p id="mobile-filter-p">Apply Filter</p>
+                  </div>
                 </div>
               </form>
             </div>
@@ -712,15 +769,17 @@
           </div>
           <div class="foot-apps">
             <p>Get App</p>
-            <img
-              src="./contents/Google Play Badge.svg"
-              alt="google-playstore"
-            />
-            <img src="./contents/App Store Badge.svg" alt="appstore" />
+            <div class="badges">
+              <img
+                src="./contents/Google Play Badge.svg"
+                alt="google-playstore"
+              />
+              <img src="./contents/App Store Badge.svg" alt="appstore" />
+            </div>
           </div>
         </div>
       </div>
-      <hr />
+      <hr id="copyright-hr" />
       <div class="foot-bottom">
         <div class="foot-bottom-left">
           <p>Copyright © 2024 Cloud Education. All rights reserved.</p>

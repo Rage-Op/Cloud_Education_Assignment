@@ -41,12 +41,6 @@
 }
 
 @media (max-width: 1240px) {
-  * {
-    font-size: 14px;
-  }
-  .hero-search-bottom > select {
-    width: 140px;
-  }
   #logo {
     height: 30px;
     background-size: contain;
@@ -60,7 +54,6 @@
   }
   .nav-signin {
     height: 42px;
-    width: 95px;
     font-size: 14px;
   }
   .nav-download {
@@ -71,7 +64,7 @@
     height: 48px;
   }
   #input-search-button {
-    height: 42px;
+    height: 48px;
   }
   .hero-search-bottom {
     margin-top: 15px;
@@ -88,5 +81,212 @@
   footer {
     padding: 18px 7% 0 7%;
     font-size: 12px;
+  }
+  .nav-links {
+    gap: 18px;
+  }
+  #search1 {
+    background-position: 15px 10px;
+  }
+  .container {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .hero-overlay h2 {
+    font-size: 25px;
+  }
+  .hero-overlay p {
+    font-size: 12px;
+  }
+  .nav-left {
+    gap: 20px;
+  }
+  .nav-download {
+    padding: 7px 10px;
+  }
+  .nav-download-content {
+    gap: 2px;
+  }
+  .hero-section {
+    height: 268px;
+  }
+  #filter-left2 {
+    font-size: 15px;
+  }
+  #filter-left1 {
+    font-size: 12px;
+  }
+  .filter-right {
+    font-size: 14px;
+  }
+  .box {
+    height: 250px;
+  }
+  .hero-search-bottom {
+    gap: 6px;
+  }
+  .hero-search-bottom > select {
+    width: 80px;
+  }
+  .nav-links a {
+    font-size: 12px;
+  }
+  .college-name,
+  .college-location {
+    font-size: 14px;
+  }
+  .small-text,
+  .big-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .nav-links {
+    gap: 7px;
+  }
+  .nav-download-content p {
+    font-size: 14px;
+  }
+  #input-search-button {
+    height: 42px;
+  }
+  .hero-search-top #search1 {
+    height: 42px;
+  }
+  .hero-search-bottom > select {
+    height: 45px;
+  }
+  .nav-services,
+  .nav-more {
+    gap: 2px;
+  }
+}
+
+@media (max-width: 875px) {
+  .hero-overlay h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .hero-overlay p {
+    text-align: left;
+  }
+  .mobile-menu {
+    display: inline;
+  }
+  .nav-signin {
+    display: none;
+  }
+  .nav-download {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .hero-search-bottom > select {
+    display: none;
+  }
+  .mobile-filter {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .hero-search-bottom {
+    justify-content: center;
+    margin-top: 22px;
+  }
+  .hero-search {
+    height: 140px;
+    padding: 26px 12px;
+  }
+  #input-search-button {
+    display: none;
+  }
+  .filter-right {
+    display: none;
+  }
+  .college-logo {
+    height: 60px;
+    width: 60px;
+  }
+  #filter-left2 {
+    font-size: 14px;
+  }
+  .college-location {
+    font-size: 12px;
+  }
+  .search-result {
+    padding: 0 5%;
+  }
+  .hero-search-wrapper {
+    padding: 0 5%;
+  }
+  .section-divider {
+    margin: 23px 5%;
+  }
+  .search-filter {
+    padding: 0 5%;
+  }
+  header {
+    padding: 0 5%;
+  }
+  .college-title {
+    width: 150px;
+  }
+  .page-tabs {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+  .page-tabs-right {
+    gap: 17px;
+  }
+  .page-tabs {
+    padding: 0 5%;
+  }
+  .foot-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .foot-top-right {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .foot-links {
+    gap: 40px;
+  }
+  .foot-apps {
+    align-items: flex-start;
+  }
+  .badges {
+    flex-direction: row;
+  }
+  #copyright-hr {
+    margin-top: 48px;
+  }
+  footer {
+    padding: 18px 5% 0 5%;
+  }
+  .foot-bottom {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 32px;
+    gap: 24px;
+  }
+
+  .box6,
+  .box7,
+  .box8,
+  .box9,
+  .box10,
+  .box11,
+  .box12 {
+    display: none;
   }
 }
