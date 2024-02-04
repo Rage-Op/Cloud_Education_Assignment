@@ -6,7 +6,13 @@ let body = document.querySelector("body");
 servicesButton.addEventListener("mouseenter", () => {
   modal.showModal();
 });
+servicesButton.addEventListener("click", () => {
+  modal.showModal();
+});
 moreButton.addEventListener("mouseenter", () => {
+  modal.showModal();
+});
+moreButton.addEventListener("click", () => {
   modal.showModal();
 });
 modal.addEventListener("click", (e) => {

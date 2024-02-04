@@ -88,7 +88,7 @@ nav {
   color: #60677f;
   font-size: 16px;
   font-weight: 400;
-  height: 70px;
+  /* height: 70px; */
 }
 
 .nav-links a:hover {
