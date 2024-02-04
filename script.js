@@ -9,10 +9,18 @@ servicesButton.addEventListener("mouseenter", () => {
 servicesButton.addEventListener("click", () => {
   modal.showModal();
 });
+servicesButton.addEventListener("touchstart", function (e) {
+  e.preventDefault();
+  modal.showModal();
+});
 moreButton.addEventListener("mouseenter", () => {
   modal.showModal();
 });
 moreButton.addEventListener("click", () => {
+  modal.showModal();
+});
+moreButton.addEventListener("touchstart", function (e) {
+  e.preventDefault();
   modal.showModal();
 });
 modal.addEventListener("click", (e) => {
@@ -23,7 +31,6 @@ modal.addEventListener("click", (e) => {
     e.clientY < dialogDimensions.top ||
     e.clientY > dialogDimensions.bottom
   ) {
-    console.log(e.clientX, dialogDimensions.left);
     modal.close();
   }
 });
