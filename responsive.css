@@ -38,6 +38,10 @@
   .foot-top {
     padding: 0 0 32px 0;
   }
+  .dropdown {
+    top: 70px;
+    left: 46%;
+  }
 }
 
 @media (max-width: 1240px) {
@@ -91,11 +95,24 @@
   .container {
     font-size: 12px;
   }
+  .nav-services,
+  .nav-more {
+    font-size: 14px;
+  }
+  .dropdown {
+    top: 70px;
+    left: 47.5%;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 1060px) {
   .hero-overlay h2 {
     font-size: 25px;
+  }
+  .nav-services,
+  .nav-more {
+    font-size: 12px;
   }
   .hero-overlay p {
     font-size: 12px;
@@ -140,6 +157,11 @@
   .small-text,
   .big-text {
     font-size: 12px;
+  }
+  .dropdown {
+    top: 70px;
+    left: 50%;
+    width: 17vw;
   }
 }
 
